@@ -1,6 +1,6 @@
 @import url(normalize.css);
 body{
-    background-color:rgb(240, 197, 236);
+    background-color:rgba(197, 63, 184, 0.795);
     background-image: url(img/article-5f6226be9f5be.jpg);
     background-repeat: ;
     color:rgb(20, 18, 18);
@@ -12,7 +12,7 @@ h1{
     padding: 50px;
     border: 5px solid #8dc2f3;
     background-color: #d859c3;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.938);
     
     text-align: center;
     line-height: 1;
@@ -27,7 +27,7 @@ h2{
 
 main{
     
-    background-color: rgba(255, 255, 255, 0.308);
+    background-color: rgb(245, 159, 226);
     margin:0px auto;
     padding: 40px 80px;
     border: 1px solid #f01919;
