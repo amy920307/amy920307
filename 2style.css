@@ -1,6 +1,8 @@
 @import url(normalize.css);
 body{
     background-color:rgb(240, 197, 236);
+    background-image: url(img/article-5f6226be9f5be.jpg);
+    background-repeat: ;
     color:rgb(20, 18, 18);
 
 }
