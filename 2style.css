@@ -44,3 +44,29 @@ h1,header,nav,footer{
 
     text-align: center;
 }
+
+aside{
+    
+    background-color: rgb(230, 245, 163);
+    width: 100%;
+    float: left;
+}
+section{
+    
+    background-color: rgb(240, 148, 186);
+    width: 80%;
+    float: left;
+}
+footer{
+    height: 312px;
+    background-color: rgb(148, 219, 240);
+    width: 20%;
+    float: left;
+   
+}
+
+.post{
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
