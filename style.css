@@ -37,3 +37,22 @@ h1,header,nav,footer{
 
     text-align: center;
 }
+nav{
+    background-color: rgb(180, 20, 159);
+    text-align: center;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+nav li a:hover{
+    background-color:rgb(181, 227, 247);
+    color: rgb(221, 51, 51);
+}
