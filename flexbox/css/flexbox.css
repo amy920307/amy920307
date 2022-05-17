@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body,ul{
+    margin: 0px;
+}
+
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+nav{
+    background-color: rgb(189, 126, 248);
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    margin: 0px;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: aliceblue;
+    color: rgb(189, 0, 0);
+    transition: background-color ls linear, color ease-in;
+}
+
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(204, 162, 243,80%);
+}
+
+.title{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+/*相片清單樣式*/
+#photolist ul{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+#photolist li{
+    list-style-type: none;
+    margin:10px;
+}
+
+#photolist img{
+    border-radius: 10%;
+    box-shadow:5px 5px 10px gray;
+}
+
+#photolist .emptyitem{
+    width: 200px;
+}
+
+.gotop{
+    font-size: 60px;
+    color: blueviolet;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
