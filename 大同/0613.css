@@ -1880,3 +1880,10 @@ http://stackoverflow.com/a/34696029/383904
 	color: rgba(0,0,0,0.8);
 	text-decoration: none;
 }
+.food-menu-container img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 0;
+    object-fit: cover;
+    object-position: center;
