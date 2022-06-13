@@ -16,5 +16,32 @@
             <a class="to_nav" href="#primary_nav"></a>
         </header>
     </div>
+    <div class="bdcard"></div>
+    <section>
+        <img class="mySlides" src="img/explore-1.jpg" style="display:block; margin:auto;" width="900" height="500" alt="1">
+        <img class="mySlides" src="img/A1.jpg" style="display:block; margin:auto;" width="900" height="500" alt="1">
+        <img class="mySlides" src="img/A2.jpg" style="display:block; margin:auto;" width="900" height="500" alt="1">
+    
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 2000); // Change image every 1.5 seconds
+            }
+        </script>
+    </section>
+    </div>
+    <h3>探險時光</h3>
+    <p>使大同成長茁壯，「與神同工」紀念碑對大同具有重要的意義。</p>
+      <p>做著神看為美好及祝福的事情</p>
 </body>
 </html>
